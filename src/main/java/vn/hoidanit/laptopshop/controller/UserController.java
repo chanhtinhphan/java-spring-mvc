@@ -20,7 +20,7 @@ public class UserController {
     @RequestMapping("/")
     public String getHomePage() {
         String test = this.userService.handleHello(); // from controller to view ? how ?? -> next video
-        return "eric.html";
+        return "hello";
     }
 }
 
