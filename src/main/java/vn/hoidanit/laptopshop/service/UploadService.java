@@ -24,7 +24,6 @@ public class UploadService {
             File dir = new File(rootPath + File.separator + targerFolder);
             if (!dir.exists())
                 dir.mkdirs();
-            // Create the file on server
             finalName = System.currentTimeMillis() + "-" + file.getOriginalFilename();
             File serverFile = new File(dir.getAbsolutePath() + File.separator + finalName);
             BufferedOutputStream stream = new BufferedOutputStream(
@@ -33,7 +32,6 @@ public class UploadService {
             stream.close();
             return finalName;
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return finalName;

@@ -40,6 +40,7 @@
                                                 </div>
                                                 <ul class="list-group list-group-flush">
                                                     <li class="list-group-item">Id: ${user.id}</li>
+                                                    <li class="list-group-item">Role: ${user.role.name}</li>
                                                     <li class="list-group-item">Email: ${user.email}</li>
                                                     <li class="list-group-item">FullName: ${user.fullName}</li>
                                                     <li class="list-group-item">Adress: ${user.address}</li>
