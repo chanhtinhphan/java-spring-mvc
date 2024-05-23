@@ -146,6 +146,7 @@
     //     }
     //     button.parent().parent().find('input').val(newVal);
     // });
+
     $('.quantity button').on('click', function () {
         let change = 0;
 
