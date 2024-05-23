@@ -104,8 +104,7 @@
                                                 <td>
                                                     <div class="input-group quantity mt-4" style="width: 100px;">
                                                         <div class="input-group-btn">
-                                                            <button
-                                                                class="btn btn-sm btn-minus quantity bg-light border">
+                                                            <button class="btn btn-sm btn-minus  bg-light border">
                                                                 <i class="fa fa-minus"></i>
                                                             </button>
                                                         </div>
@@ -116,8 +115,7 @@
                                                             data-cart-detail-price="${cartDetail.price}"
                                                             data-cart-detail-index="${status.index}">
                                                         <div class="input-group-btn">
-                                                            <button
-                                                                class="btn btn-sm btn-plus quantity bg-light border ">
+                                                            <button class="btn btn-sm btn-plus bg-light border ">
                                                                 <i class="fa fa-plus"></i>
                                                             </button>
                                                         </div>
