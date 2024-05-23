@@ -2,6 +2,7 @@
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
         <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
             <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
                 <!DOCTYPE html>
                 <html lang="en">
 
@@ -95,16 +96,30 @@
                                                     </button>
                                                 </div>
                                                 <input type="text"
-                                                    class="form-control form-control-sm text-center border-0" value="1">
+                                                    class="form-control form-control-sm text-center border-0" value="1"
+                                                    data-cart-detail-index="0">
                                                 <div class="input-group-btn">
                                                     <button class="btn btn-sm btn-plus rounded-circle bg-light border">
                                                         <i class="fa fa-plus"></i>
                                                     </button>
                                                 </div>
                                             </div>
-                                            <a href="#"
-                                                class="btn border border-secondary rounded-pill px-4 py-2 mb-4 text-primary"><i
-                                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                            <form action="/add-product-from-view-detail" method="post"
+                                                modelAttribute="product">
+                                                <input type="hidden" name="${_csrf.parameterName}"
+                                                    value="${_csrf.token}" />
+                                                <input class="form-control d-none" type="text" value="${product.id}"
+                                                    name="id" />
+
+                                                <input class="form-control d-none" type="text" name="quantity"
+                                                    id="cartDetails0.quantity" />
+                                                <button
+                                                    class="btn border border-secondary rounded-pill px-4 py-2 mb-4 text-primary"><i
+                                                        class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                    Add to cart
+                                                </button>
+                                            </form>
+
                                         </div>
                                         <div class="col-lg-12">
                                             <nav>
