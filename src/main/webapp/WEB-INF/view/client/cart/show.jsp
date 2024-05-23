@@ -105,7 +105,7 @@
                                                     <div class="input-group quantity mt-4" style="width: 100px;">
                                                         <div class="input-group-btn">
                                                             <button
-                                                                class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                                                class="btn btn-sm btn-minus quantity bg-light border">
                                                                 <i class="fa fa-minus"></i>
                                                             </button>
                                                         </div>
@@ -117,7 +117,7 @@
                                                             data-cart-detail-index="${status.index}">
                                                         <div class="input-group-btn">
                                                             <button
-                                                                class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                                                class="btn btn-sm btn-plus quantity bg-light border ">
                                                                 <i class="fa fa-plus"></i>
                                                             </button>
                                                         </div>

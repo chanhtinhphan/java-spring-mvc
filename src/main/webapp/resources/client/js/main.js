@@ -146,7 +146,6 @@
     //     }
     //     button.parent().parent().find('input').val(newVal);
     // });
-
     $('.quantity button').on('click', function () {
         let change = 0;
 
@@ -165,6 +164,13 @@
         }
         const input = button.parent().parent().find('input');
         input.val(newVal);
+
+        //set form index
+        const index = input.attr("data-cart-detail-index")
+        const el = document.getElementById(`cartDetails${index}.quantity`);
+        $(el).val(newVal);
+
+
 
         //get price
         const price = input.attr("data-cart-detail-price");
