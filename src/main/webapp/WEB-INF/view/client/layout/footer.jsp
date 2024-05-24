@@ -36,7 +36,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-item">
                             <h4 class="text-light mb-3">Contact</h4>
-                            <p>Author:Hỏi Dân IT</p>
+                            <p>Email: chanhtinhphan@gmail.com</p>
                             <p>Website: <a href="https://github.com/chanhtinhphan" target="_blank"> chanhtinhphan</a>
                             </p>
                         </div>
@@ -51,8 +51,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="https://hoidanit.vn" target="_blank"><i
-                                    class="https://github.com/chanhtinhphan"></i>Frieren</a>, All right
+                        <span class="text-light"><a href="https://github.com/chanhtinhphan"
+                                target="_blank"><i></i>Frieren</a>, All right
                             reserved.</span>
                     </div>
                     <div class="col-md-6 my-auto text-center text-md-end text-white">
